@@ -1,0 +1,80 @@
+Constructor
+Initializes the Calculator object with result and mem set to 0.0.
+
+add()
+Prompts the user to enter two numbers (or "result"/"mem").
+
+Adds the two values.
+
+Stores and prints the result.
+
+subtract()
+Prompts the user to enter two numbers (or "result"/"mem").
+
+Subtracts the second number from the first.
+
+Stores and prints the result.
+
+multiply()
+Prompts the user to enter two numbers (or "result"/"mem").
+
+Multiplies the two numbers.
+
+Stores and prints the result.
+
+divide()
+Prompts the user to enter two numbers (or "result"/"mem").
+
+Divides the first number by the second.
+
+Stores and prints the result.
+
+Note: Does not explicitly handle division by zero.
+
+square()
+Prompts the user for one number (or "result"/"mem").
+
+Squares the number.
+
+Stores and prints the result.
+
+sqrt()
+Prompts the user for one number (or "result"/"mem").
+
+Calculates the square root.
+
+Stores and prints the result.
+
+Assumes the input is non-negative (no error handling for negative input).
+
+setMem()
+Prompts the user for a number (or "result").
+
+Stores the value in memory (mem).
+
+Prints the memory value.
+
+printMem()
+Prints the current stored memory value.
+
+parseInput(const std::string& input)
+Converts the input string to a double.
+
+If input is "result", returns the last result.
+
+If input is "mem", returns the memory value.
+
+Otherwise converts the string to a double using std::stod.
+
+welcome()
+Prints a prompt listing available operations.
+
+parseOperation(const std::string& input)
+Takes a string representing an operation.
+
+Calls the corresponding function based on input, e.g. "+", "add", "sqrt", "setmem".
+
+Supports multiple synonyms for each operation.
+
+Does nothing if the input does not match any operation.
+
